@@ -9,7 +9,7 @@
     <style>
         /* Critical Path CSS "styles.css" */
     *{margin:0;padding:0;border:0;-webkit-box-sizing:border-box;box-sizing:border-box}body{font-family:"Source Sans Pro",sans-serif}.container{max-width:1140px;width:95%;flex:1;margin:0 auto}h1,h2,h3,h6{font-family:'Fjalla One',sans-serif;font-weight:normal;margin:0}h1{line-height:1.50;font-size:40px;letter-spacing:-.2px;margin:0}h2{color:#026fff;text-transform:uppercase;font-family:"Source Sans Pro",sans-serif;font-weight:bold;font-size:24px;margin-bottom:20px}figure{margin:0}.burger-btn{display:none;width:40px;height:40px;background-color:rgba(0,0,0,.8);color:white;border-radius:50%;font-size:25px;line-height:40px;text-align:center;position:fixed;z-index:50;left:5px;top:5px}.header{background-color:#1b2127;color:#ffffff}.header>div{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;height:70px}.menu{height:inherit}.menu ol{margin:0;list-style:none;display:flex;height:inherit}nav ol li{height:inherit}.header a{color:#ffffff;text-decoration:none;padding:0px 10px;height:inherit;display:flex;align-items:center;font-weight:normal}.hero{background-color:#1b2127}.hero .container{height:300px;color:#ffffff;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;overflow:hidden}.hero .hero-image{object-fit:cover}.hero strong{color:#026fff;letter-spacing:1.5px}.hero img{width:500px}.portfolio{background-color:#fafafa}.portfolio .container{padding:20px}.portfolio{border-left:10px solid #026fff}.project{display:flex;flex-direction:row;justify-content:space-between;align-items:center;flex-wrap:wrap;overflow:hidden;border-radius:20px;background:#fff;padding:20px;margin-bottom:15px;box-shadow:1px 1px 10px 1px lightgray}h3{font-size:25px;margin-bottom:10px}.project .project-details{width:50%;font-size:16px}.project .project-details h6,p,a{margin-bottom:10px;color:#626262;font-weight:bold;font-size:16px}.project .project-details strong{font-family:'Fjalla One',sans-serif;color:#3b3b3b;margin-right:10px}.project .project-description{line-height:30px;color:#3b3b3b;font-size:20px}.project figure{width:50%}.project figure img{width:100%}
-     /* Critical Path CSS "mediaqueries.css" */ 
+     /* Critical Path CSS "mediaqueries.css" */
      @media screen and (max-width:1023px){.hero .container{height:auto;position:relative;overflow:hidden}.hero h1{font-size:2em;z-index:2;padding:1em}.hero img{position:absolute;z-index:1;top:0;bottom:0;left:0;right:0;width:100%;height:100%;filter:opacity(.6);object-position:50% 20%}}@media screen and (max-width:767px){.header .container{display:block;height:auto}.burger-btn{display:block}.header .logo{text-align:center}.menu{position:fixed;background-color:rgba(27,33,39,1);color:#ffffff;z-index:40;width:50vw;height:0;height:100vh;top:0;left:0;left:-50vw}.header .menu ol{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:center}.header .menu ol li{width:100%;height:auto;text-align:center}.header .menu ol li a{display:block;height:auto;text-align:center;margin:0 auto;padding:10px 5px;font-size:18px;border-bottom:1px solid white}.hero{height:auto;position:relative}.hero h1{font-size:2em;z-index:2}.hero img{position:absolute;z-index:1;left:0;right:0;top:0;bottom:0}.project .project-details{width:100%}.project h3{font-size:1.4em;margin:.4em 0}.project .project-course{font-size:.7em}.project .project-date{font-size:1em}.project .project-url{font-size:1em}.project .project-description{font-size:.9em;line-height:20px}.project-course,.project-date,.project-url{margin:.3em 0}.project .project-imageContainer{width:100%;text-align:center}.project .project-imageContainer img{display:inline-block;max-width:500px}}@media screen and (max-width:480px){.project .project-details{font-size:13px}.hero h1{font-size:1.5em}}@media screen and (max-width:320px){.hero h1{font-size:1.3em}}
     </style>
 </head>
@@ -18,11 +18,11 @@
     <!--Header-->
     <header class="header">
         <div class="container">
-        
+
             <figure class="logo">
                 <img height="50" src="img/logo.png" alt="Logo PLATZI">
             </figure>
-        <nav id="menu" class="menu">    
+        <nav id="menu" class="menu">
             <ol>
                 <li><a href="#portafolio">Portafolio</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
@@ -35,7 +35,7 @@
     <section class="hero">
         <div class="container">
         <h1>Hola! soy <strong>Leonidas Estevan</strong> <br>Desarrollador  <strong></strong>Web</strong> con <br> pasión a la <strong>tecnologia</strong></h1>
-        <img class="hero-image" src="img/hero.jpg" alt="Imagen de portada">
+        <img class="hero-image" src="img/hero.png" alt="Imagen de portada">
     </div>
     </section>
     <!--Portfolio-->
@@ -86,7 +86,7 @@
         </article>
         <article class="event">
                 <figure class="event-imageContainer">
-                    <img class="event-image" src="img/platzi-conf.jpg" alt="" width="500px">
+                    <img class="event-image" src="img/platzi-conf.png" alt="" width="500px">
                 </figure>
                 <div class="event-detail">
                 <h3 class="event-title">PlatziConf México 2018</h3>
@@ -98,7 +98,7 @@
                     <figure class="event-imageContainer">
                             <div class="flexible-video">
                                     <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/LoKvxCSZw5w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>                                
+                                    </div>
                         <!-- <img class="event-image" src="img/platzi-conf.jpg" alt="" width="500px"> -->
                     </figure>
                     <div class="event-detail">
@@ -109,7 +109,7 @@
                 </article>
                 <article class="event">
                         <figure class="event-imageContainer">
-                            <img class="event-image" src="img/platzi-conf.jpg" alt="" width="500px">
+                            <img class="event-image" src="img/platzi-conf.png" alt="" width="500px">
                         </figure>
                         <div class="event-detail">
                         <h3 class="event-title">PlatziConf México 2018</h3>
@@ -128,7 +128,7 @@
             <form class="form-email" action="/suscripción/" method="">
                 <input class="email" type="text" placeholder="Dejame tu email">
                 <input type="submit" value="Enviar">
-                
+
             </form>
         </div>
         <div class="redes-sociales">
